@@ -126,7 +126,7 @@
 </head>
 <body>
     <audio id="bgMusic" loop>
-        <source src="8.mp3" type="audio/mpeg">
+        <source src="5.mp3" type="audio/mpeg">
     </audio>
     <canvas id="flower-canvas"></canvas>
     <div id="part1" class="container">
@@ -142,7 +142,7 @@
             <div class="flower-row">🌸🌻🌹🌷🌼🌷🌹🌻🌸</div>
         </div>
         <div id="poster2a" class="poster">
-            <h1 class="typing">Төрсөн өдрийн мэнд! 🎉</h1>
+            <h1 class="typing">Төрсөн өдрийн мэнд!</h1>
         </div>
         <div id="poster2b" class="poster hidden">
             <p id="apology-text"></p> <button id="nextBtn" class="hidden" onclick="showFinal()">Цааш 🌸</button>
@@ -151,7 +151,7 @@
     <div id="part3" class="container hidden">
         <img id="final-image" src="9.jpg" alt="Зураг">
         <h1 style="color: #c2185b; font-size: 2em;">Үргэлж инээмсэглэж яваарай 🌸</h1>
-        <p>Чи минь хамгийн үзэсгэлэнтэй нь.</p>
+        <p>Чи их хичээж байгаа шүү.</p>
     </div>
     <script>
         const bgMusic = document.getElementById('bgMusic');
